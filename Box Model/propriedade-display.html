@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade "Display"</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+
+        h1{
+            border: 5px solid red;
+            width: 50%;
+            text-align: center;
+            margin: auto;
+        }
+
+        .testeblock{
+            display: block;
+        }
+
+        mark{
+            display: inline-block;
+            padding: 5px;
+            border: 5px solid red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Propriedade "Display"</h1>
+
+    <h2>Display Inline</h2>
+
+    <p><mark>O display: inline</mark> no CSS faz com que um elemento seja exibido <b>na mesma linha que outros elementos</b>, sem quebrar para uma nova linha. Ele só ocupa o espaço necessário para seu conteúdo, o que significa que você não pode definir larguras ou alturas específicas para ele.</p>
+
+    <p>Aqui estão os exemplos com as tags inline usando:<br><br>
+
+        <b>&lt;span&gt;</b>: Usada para estilizar partes de texto ou agrupá-las.<br>
+        <b>&lt;a&gt;</b>: Define um link.<br>
+        <b>&lt;img&gt;</b>: Exibe uma imagem.<br>
+        <b>&lt;strong&gt;</b>: Aplica ênfase forte (negrito) ao texto.<br>
+        <b>&lt;em&gt</b>;: Aplica ênfase (itálico) ao texto.<br>
+        <b>&lt;input&gt</b>: Cria um campo de formulário de entrada.<br>
+        <b>&lt;label&gt;</b>: Associa um rótulo a um campo de formulário.<br>
+        <b>&lt;button&gt;</b>: Cria um botão interativo.</p><br>
+
+    <p><b class="testeblock">Lorem ipsum </b>dolor sit amet consectetur, <em>adipisicing elit</em>. Aliquid, provident neque reprehenderit assumenda necessitatibus ipsum ex officiis esse architecto, blanditiis cumque. Laborum reprehenderit tenetur vel sint mollitia fugiat eaque numquam inventore praesentium amet sequi hic earum quisquam suscipit culpa, ut impedit ipsam quibusdam! Sunt, <mark>a aut expedita quo doloremque!</mark> </p>
+
+    <h2>Display Block</h2>
+
+    <p>A propriedade display: block faz com que um elemento HTML se comporte como um bloco. Isso significa que o elemento:</p>
+
+    <p>Ocupa toda a largura disponível do seu elemento pai, independentemente do conteúdo.</p>
+    
+    <p>Força uma quebra de linha antes e depois de si, empurrando outros elementos para cima ou para baixo.
+    Permite definir suas dimensões (largura e altura) explicitamente usando propriedades como width e height.</p>
+
+    <h2>Exemplos:</h2>
+
+    <p>&lt;div style="display: block; width: 200px; height: 100px; background-color: lightblue;"&gt;<br>
+        Este é um &lt;div&gt; com display: block.
+    &lt;/div&gt;
+    
+    &lt;p style="display: block; width: 150px; background-color: lightgreen;"&gt;
+        Este é um parágrafo (&lt;p&gt;) com display: block.
+    &lt;/p&gt;</p>
+    
+
+
+
+</body>
+</html>
